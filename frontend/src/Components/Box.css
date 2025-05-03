@@ -1,0 +1,40 @@
+.box {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid lightblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 300px;
+    height: 50vh;
+    margin: 20px;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.box-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.box-content {
+    padding: 15px;
+}
+
+.box-title {
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #333;
+    }
+
+.box-description {
+    margin-top: 4px;
+    color: #777;
+}

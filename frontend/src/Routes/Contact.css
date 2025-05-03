@@ -1,0 +1,107 @@
+.contact {
+    background-color: lightgray;
+}
+.contact_body {
+    /* margin-left: 200px; */
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.contact_body > h3 {
+    color: #005ea2;
+    /* margin-left: 100px; */
+    text-decoration-line: underline;
+}
+.contact_body > p {
+    color: #4a4a4a;
+    /* width: 70%; */
+}
+/* .contact_phone {
+    margin-left: 300px;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+} */
+.contact_phone > h4 {
+    color: #052252;
+}
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact_flex {
+    display: flex;
+    align-items: center;
+}
+.contact_flex > p {
+    color: #4a4a4a;
+    /* width: 70%; */
+}
+.phone_icon {
+    color: green;
+    transform: scale(1.6);
+    /* margin-right: 40px; */
+    /* margin: auto; */
+}
+.contact_note {
+    padding: 1rem;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.contact_worship {
+    /* margin-right: 200px; */
+    background-color: #005ea2;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+.contact_worship > h3 {
+    /* color: #005ea2; */
+    text-decoration-line: underline;
+    color: white;
+}
+.contact_worship > p {
+    /* color: #4a4a4a; */
+    /* width: 70%; */
+    color: white;
+}
+.contact_location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.location_text {
+    /* margin-right: 50px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+}
+.location_text > h3 {
+    color: #005ea2;
+    text-decoration-line: underline;
+}
+.location_text > p {
+    color: #4a4a4a;
+    /* width: 70%; */
+}
+.location_img {
+    width: 100%;
+}
+.location_img > img{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .contact_location {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,9 @@
+.event_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    width: 95%;
+    margin: 0 auto;
+}
