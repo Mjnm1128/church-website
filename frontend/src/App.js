@@ -7,7 +7,6 @@ import BottomBar from "./Components/BottomBar";
 import AboutUs from "./Pages/AboutUs";
 import ContactChurch from "./Pages/ContactChurch";
 import Register from "./Pages/Register";
-import Members from "./Pages/Members";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Events />} />
         <Route path="/videos" element={<Videos />} />
-        <Route path="/members" element={<Members />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactChurch />} />
         <Route path="/register" element={<Register />} />
