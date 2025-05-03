@@ -46,9 +46,6 @@ function Navbar() {
           <NavLink to="/videos">Uploaded Videos</NavLink>
           <NavLink to="/about">About Us</NavLink>
           <NavLink to="/contact">Contact Us</NavLink>
-          <NavLink to="/register">
-            <button>Register</button>
-          </NavLink>
         </nav>
         <button className="mobile-menu-icon" onClick={() => setShow(!show)}>
           {show ? <MenuIcon /> : <CloseIcon />}
