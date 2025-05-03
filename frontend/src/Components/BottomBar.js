@@ -1,6 +1,6 @@
 import React from "react";
 import "./BottomBar.css";
-import FacebookIcon from "@material-ui/icons/Facebook";
+import FacebookIcon from '@mui/icons-material/Facebook';
 
 function BottomBar() {
   return (

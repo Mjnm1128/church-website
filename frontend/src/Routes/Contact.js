@@ -1,8 +1,9 @@
 import React from "react";
 import "./Contact.css";
-import PhoneIcon from "@material-ui/icons/Phone";
+import PhoneIcon from "@mui/icons-material/Phone";
 import location from "../Assets/location.png";
 import Hero from "../Components/Hero";
+
 
 function Contact() {
   return (

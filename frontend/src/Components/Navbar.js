@@ -3,8 +3,8 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../Assets/logo.png";
-import MenuIcon from "@material-ui/icons/Menu";
-import CloseIcon from "@material-ui/icons/Close";
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 
 function Navbar() {
   const [show, setShow] = useState(true);

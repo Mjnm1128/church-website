@@ -1,12 +1,11 @@
 import React from "react";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import YouTubeIcon from "@material-ui/icons/YouTube";
-import TelegramIcon from "@material-ui/icons/Telegram";
+import FacebookIcon from '@mui/icons-material/Facebook';
+import PersonIcon from '@mui/icons-material/Person';
+import PhoneIcon from '@mui/icons-material/Phone';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 import "./Footer.css";
-import PersonIcon from "@material-ui/icons/Person";
-import PhoneIcon from "@material-ui/icons/Phone";
-import LocationOnIcon from "@material-ui/icons/LocationOn";
 import logo from "../Assets/logo.png";
+
 
 function Footer() {
   return (
