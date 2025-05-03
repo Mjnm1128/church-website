@@ -44,7 +44,6 @@ function Navbar() {
         >
           <NavLink to="/">Upcoming Events</NavLink>
           <NavLink to="/videos">Uploaded Videos</NavLink>
-          <NavLink to="/members">Membership</NavLink>
           <NavLink to="/about">About Us</NavLink>
           <NavLink to="/contact">Contact Us</NavLink>
           <NavLink to="/register">
