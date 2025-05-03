@@ -6,7 +6,6 @@ import Videos from "./Pages/Videos";
 import BottomBar from "./Components/BottomBar";
 import AboutUs from "./Pages/AboutUs";
 import ContactChurch from "./Pages/ContactChurch";
-import Register from "./Pages/Register";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Route path="/videos" element={<Videos />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactChurch />} />
-        <Route path="/register" element={<Register />} />
       </Routes>
       <BottomBar />
     </>
